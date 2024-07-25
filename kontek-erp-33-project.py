@@ -1,6 +1,6 @@
 import json
 import os
-import fitz  # PyMuPDF
+import fitz  
 import logging
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -46,7 +46,7 @@ def parse_file_details(file_path):
             details['ship_to'] = line[8:].strip()
         elif line.startswith('Bill To:'):
             details['bill_to'] = line[8:].strip()
-        elif line.startswith('XEL-'):  # Assuming part numbers start with 'XEL-'
+        elif line.startswith('XEL-'):  
             parts = line.split()
             if len(parts) >= 5:
                 item = {
@@ -81,7 +81,7 @@ def save_json(data, filename='order.json'):
         json.dump(data, f, indent=4)
 
 def main():
-    directory_path = "P:/KONTEK/ENGINEERING/ELECTRICAL/Application Development/ERP/33. Vendor Quote and Order Parsing Kontek"  # Adjust path as needed
+    directory_path = "P:/KONTEK/ENGINEERING/ELECTRICAL/Application Development/ERP/33. Vendor Quote and Order Parsing Kontek"  
     print("Scanning directory...")
     order_data = scan_directory(directory_path)
     print("Saving JSON...")
