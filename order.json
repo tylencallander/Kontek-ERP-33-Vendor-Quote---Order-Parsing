@@ -1,29 +1,41 @@
 {
     "17206 Graybar.pdf": {
         "filename": "17206 Graybar.pdf",
+        "file_location": "P:/KONTEK/ENGINEERING/ELECTRICAL/Application Development/ERP/33. Vendor Quote and Order Parsing Kontek\\17206 Graybar.pdf",
         "order_number": "",
         "date": "",
+        "ship_to": "",
+        "bill_to": "",
         "items": [],
-        "subtotal": 0,
-        "tax": 0,
-        "total_amount": 0
+        "currency": "",
+        "tax_rate": "",
+        "kontek_hst_number": "",
+        "terms": "Net 30"
     },
     "K2023372-404 Franklin.pdf": {
         "filename": "K2023372-404 Franklin.pdf",
+        "file_location": "P:/KONTEK/ENGINEERING/ELECTRICAL/Application Development/ERP/33. Vendor Quote and Order Parsing Kontek\\K2023372-404 Franklin.pdf",
         "order_number": "",
         "date": "",
+        "ship_to": "",
+        "bill_to": "",
         "items": [],
-        "subtotal": 0,
-        "tax": 0,
-        "total_amount": 0
+        "currency": "",
+        "tax_rate": "",
+        "kontek_hst_number": "",
+        "terms": "Net 30"
     },
     "K2023387-17 GF (Skids Fittings & Pipe).pdf": {
         "filename": "K2023387-17 GF (Skids Fittings & Pipe).pdf",
+        "file_location": "P:/KONTEK/ENGINEERING/ELECTRICAL/Application Development/ERP/33. Vendor Quote and Order Parsing Kontek\\K2023387-17 GF (Skids Fittings & Pipe).pdf",
         "order_number": "",
         "date": "",
+        "ship_to": "",
+        "bill_to": "",
         "items": [],
-        "subtotal": 0,
-        "tax": 0,
-        "total_amount": 0
+        "currency": "",
+        "tax_rate": "",
+        "kontek_hst_number": "",
+        "terms": "Net 30"
     }
 }

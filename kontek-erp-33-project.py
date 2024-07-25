@@ -16,41 +16,55 @@ def load_project_data(filepath):
 def parse_file_details(file_path):
     try:
         doc = fitz.open(file_path)
-        text = doc[0].get_text()
+        text = doc[0].get_text("text")
     except Exception as e:
         logging.error(f"Failed to open or read {file_path}: {e}")
         return {}
 
     details = {
         'filename': os.path.basename(file_path),
+        'file_location': file_path,
         'order_number': '',
         'date': '',
+        'ship_to': '',
+        'bill_to': '',
         'items': [],
-        'subtotal': 0,
-        'tax': 0,
-        'total_amount': 0
+        'currency': '',
+        'tax_rate': '',
+        'kontek_hst_number': '',
+        'terms': ''
     }
 
     lines = text.split('\n')
     for line in lines:
-        try:
-            if 'Order No.:' in line:
-                details['order_number'] = line.split(':')[-1].strip()
-            elif 'Date:' in line:
-                details['date'] = line.split(':')[-1].strip()
-            elif line.startswith('XEL-'):
-                parts = line.split()
-                if len(parts) > 4:
-                    item = {
-                        'item_no': parts[0],
-                        'quantity_ordered': parts[1],
-                        'description': ' '.join(parts[4:-2]),
-                        'unit_price': parts[-2],
-                        'amount': parts[-1]
-                    }
-                    details['items'].append(item)
-        except IndexError as e:
-            logging.warning(f"Skipping line due to IndexError: {line} | Error: {e}")
+        line = line.strip()
+        if 'Order No.:' in line:
+            details['order_number'] = line.split(':')[-1].strip()
+        elif 'Date:' in line:
+            details['date'] = line.split(':')[-1].strip()
+        elif line.startswith('Ship To:'):
+            details['ship_to'] = line[8:].strip()
+        elif line.startswith('Bill To:'):
+            details['bill_to'] = line[8:].strip()
+        elif line.startswith('XEL-'):  # Assuming part numbers start with 'XEL-'
+            parts = line.split()
+            if len(parts) >= 5:
+                item = {
+                    'part_number': parts[0],
+                    'quantity': parts[1],
+                    'description': ' '.join(parts[2:-2]),
+                    'price': parts[-2],
+                    'total': parts[-1]
+                }
+                details['items'].append(item)
+        elif 'HST Number:' in line:
+            details['kontek_hst_number'] = line.split(':')[-1].strip()
+        elif 'Terms:' in line:
+            details['terms'] = line.split(':')[-1].strip()
+        elif 'Currency:' in line:
+            details['currency'] = line.split(':')[-1].strip()
+        elif 'Tax Rate:' in line:
+            details['tax_rate'] = line.split(':')[-1].strip()
 
     return details
 
