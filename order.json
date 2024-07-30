@@ -5,8 +5,14 @@
         "order_number": "17206",
         "order_date": "",
         "ship_date": "N/A",
-        "ship_to": "Kontek Ecology Systems Inc.",
-        "bill_to": "Graybar"
+        "ship_to": {
+            "location": "Kontek Ecology Systems Inc.",
+            "address": "3250 Harvester Road Unit #1 Burlington, Ontario L7N 3W9 Canada"
+        },
+        "bill_to": {
+            "location": "Graybar",
+            "address": "PO Box 1000, 130 Hayward Ave. Kitchener, Ontario N2G 4E8"
+        }
     },
     "K2023372-404 Franklin.pdf": {
         "filename": "K2023372-404 Franklin.pdf",
@@ -14,8 +20,14 @@
         "order_number": "K2023372-404",
         "order_date": "",
         "ship_date": "N/A",
-        "ship_to": "Kontek Ecology Systems Inc.",
-        "bill_to": "Franklin Empire Inc."
+        "ship_to": {
+            "location": "Kontek Ecology Systems Inc.",
+            "address": "3250 Harvester Road Unit #1 Burlington, Ontario L7N 3W9 Canada"
+        },
+        "bill_to": {
+            "location": "Franklin Empire Inc.",
+            "address": "8421 Darnley Road Mount-Royal, Quebec H4T 2B2"
+        }
     },
     "K2023387-17 GF (Skids Fittings & Pipe).pdf": {
         "filename": "K2023387-17 GF (Skids Fittings & Pipe).pdf",
@@ -23,7 +35,13 @@
         "order_number": "K2023387-17",
         "order_date": "07 May, 2024",
         "ship_date": "07 May, 2024",
-        "ship_to": "Kontek Ecology Systems Inc.",
-        "bill_to": "Georg Fischer Piping Systems (Canada)"
+        "ship_to": {
+            "location": "Kontek Ecology Systems Inc.",
+            "address": "3250 Harvester Road Unit #1 Canada Burlington, Ontario L7N 3W9"
+        },
+        "bill_to": {
+            "location": "Georg Fischer Piping Systems (Canada)",
+            "address": "#41-U1 Keyes Court Vaughan, ON L4H 0W6"
+        }
     }
 }

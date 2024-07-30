@@ -12,8 +12,8 @@ def parse_file_details(file_path):
         'order_number': '',
         'order_date': '',
         'ship_date': '',
-        'ship_to': '',
-        'bill_to': ''
+        'ship_to': {'location': '', 'address': ''},
+        'bill_to': {'location': '', 'address': ''}
     }
 
     try:
@@ -31,10 +31,11 @@ def parse_file_details(file_path):
                     extracted_date = line.split(':')[-1].strip()
                     details['ship_date'] = extracted_date if extracted_date else "N/A"
                 if 'Ship To:' in line:
-                    details['ship_to'] = ' '.join(lines[i+2:i+3]).strip()  # Assuming address spans the next two lines
+                    details['ship_to']['location'] = ' '.join(lines[i+2:i+3]).strip()
+                    details['ship_to']['address'] = ' '.join(lines[i+4:i+5] + lines[i+6:i+7] + lines[i+7:i+9])
                 if 'Purchased From:' in line:
-                    details['bill_to'] = ' '.join(lines[i+1:i+2]).strip()  # Assuming address spans the next two lines
-
+                    details['bill_to']['location'] = ' '.join(lines[i+1:i+2]).strip()
+                    details['bill_to']['address'] = ' '.join(lines[i+3:i+4] + lines[i+5:i+6])
 
     except Exception as e:
         logging.error(f"Failed to open or parse {file_path}: {e}")
