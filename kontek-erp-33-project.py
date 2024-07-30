@@ -2,6 +2,7 @@ import json
 import os
 import pdfplumber
 import logging
+import re
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
@@ -13,29 +14,41 @@ def parse_file_details(file_path):
         'order_date': '',
         'ship_date': '',
         'ship_to': {'location': '', 'address': ''},
-        'bill_to': {'location': '', 'address': ''}
+        'bill_to': {'location': '', 'address': ''},
+        'total_price': ''
     }
 
     try:
         with pdfplumber.open(file_path) as pdf:
-            first_page = pdf.pages[0]
-            text = first_page.extract_text()
-            lines = text.split('\n')
-            
-            for i, line in enumerate(lines):
-                if 'Order No' in line:
-                    details['order_number'] = line.split(':')[-1].strip()
-                if 'Date' in line:
-                    details['order_date'] = line.split(':')[-1].strip()
-                if 'Ship Date:' in line:
-                    extracted_date = line.split(':')[-1].strip()
-                    details['ship_date'] = extracted_date if extracted_date else "N/A"
-                if 'Ship To:' in line:
-                    details['ship_to']['location'] = ' '.join(lines[i+2:i+3]).strip()
-                    details['ship_to']['address'] = ' '.join(lines[i+4:i+5] + lines[i+6:i+7] + lines[i+7:i+9])
-                if 'Purchased From:' in line:
-                    details['bill_to']['location'] = ' '.join(lines[i+1:i+2]).strip()
-                    details['bill_to']['address'] = ' '.join(lines[i+3:i+4] + lines[i+5:i+6])
+            for page in pdf.pages:
+                text = page.extract_text()
+                lines = text.split('\n')
+                
+                for i, line in enumerate(lines):
+
+                    # Header Data
+
+                    if 'Order No' in line:
+                        details['order_number'] = line.split(':')[-1].strip()
+                    if 'Date' in line:
+                        details['order_date'] = line.split(':')[-1].strip()
+                    if 'Ship Date:' in line:
+                        extracted_date = line.split(':')[-1].strip()
+                        details['ship_date'] = extracted_date if extracted_date else "N/A"
+                    if 'Ship To:' in line:
+                        details['ship_to']['location'] = ' '.join(lines[i+2:i+3]).strip()
+                        details['ship_to']['address'] = ' '.join(lines[i+4:i+5] + lines[i+6:i+7] + lines[i+7:i+9])
+                    if 'Purchased From:' in line:
+                        details['bill_to']['location'] = ' '.join(lines[i+1:i+2]).strip()
+                        details['bill_to']['address'] = ' '.join(lines[i+3:i+4] + lines[i+5:i+6])
+                    
+                    if 'Total Amount' in line and not details['total_price']:
+                        price_match = re.search(r'\d{1,3}(?:,\d{3})*\.\d{2}', line)
+                        if price_match:
+                            details['total_price'] = price_match.group(0)
+
+                if details['total_price']: 
+                    break
 
     except Exception as e:
         logging.error(f"Failed to open or parse {file_path}: {e}")
