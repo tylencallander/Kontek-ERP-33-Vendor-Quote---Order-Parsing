@@ -10,8 +10,7 @@ def parse_file_details(file_path):
         'filename': os.path.basename(file_path),
         'file_location': file_path,
         'order_number': '',
-        'date': '',
-        'page': '',
+        'order_date': '',
         'ship_date': '',
         'ship_to': '',
         'bill_to': ''
@@ -27,9 +26,7 @@ def parse_file_details(file_path):
                 if 'Order No' in line:
                     details['order_number'] = line.split(':')[-1].strip()
                 if 'Date' in line:
-                    details['date'] = line.split(':')[-1].strip()
-                if 'Page:' in line:
-                    details['page'] = line.split(':')[-1].strip()
+                    details['order_date'] = line.split(':')[-1].strip()
                 if 'Ship Date:' in line:
                     extracted_date = line.split(':')[-1].strip()
                     details['ship_date'] = extracted_date if extracted_date else "N/A"
