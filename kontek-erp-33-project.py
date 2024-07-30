@@ -8,6 +8,9 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 def parse_file_details(file_path):
     details = {
+
+        # Header Data
+
         'filename': os.path.basename(file_path),
         'file_location': file_path,
         'order_number': '',
@@ -15,6 +18,20 @@ def parse_file_details(file_path):
         'ship_date': '',
         'ship_to': {'location': '', 'address': ''},
         'bill_to': {'location': '', 'address': ''},
+
+        # Chart Data
+
+        # Chart Data
+        #'item_no': '',
+        #'quantity': '',
+        #'backorder_qty': ''
+        #'unit': '',
+        #'tax': '',
+        #'unit_price': '',
+        #'amount_price': '',
+
+        # Total Price
+
         'total_price': ''
     }
 
@@ -42,6 +59,19 @@ def parse_file_details(file_path):
                         details['bill_to']['location'] = ' '.join(lines[i+1:i+2]).strip()
                         details['bill_to']['address'] = ' '.join(lines[i+3:i+4] + lines[i+5:i+6])
                     
+                    # Chart Data
+
+                    # Chart Data
+                    #'item_no': '',
+                    #'quantity': '',
+                    #'backorder_qty': '',
+                    #'unit': '',
+                    #'tax': '',
+                    #'unit_price': '',
+                    #'amount_price': '',
+
+                    # Total Price
+
                     if 'Total Amount' in line and not details['total_price']:
                         price_match = re.search(r'\d{1,3}(?:,\d{3})*\.\d{2}', line)
                         if price_match:
