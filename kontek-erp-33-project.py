@@ -61,7 +61,6 @@ def parse_file_details(file_path):
                     
                     # Chart Data
 
-                    # Chart Data
                     #'item_no': '',
                     #'quantity': '',
                     #'backorder_qty': '',
