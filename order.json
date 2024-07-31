@@ -3,7 +3,7 @@
         "filename": "17206 Graybar.pdf",
         "file_location": "P:/KONTEK/ENGINEERING/ELECTRICAL/Application Development/ERP/33. Vendor Quote and Order Parsing Kontek\\17206 Graybar.pdf",
         "order_number": "17206",
-        "order_date": "",
+        "order_date": "19 Jun, 2023",
         "ship_date": "N/A",
         "ship_to": {
             "location": "Kontek Ecology Systems Inc.",
@@ -19,7 +19,7 @@
         "filename": "K2023372-404 Franklin.pdf",
         "file_location": "P:/KONTEK/ENGINEERING/ELECTRICAL/Application Development/ERP/33. Vendor Quote and Order Parsing Kontek\\K2023372-404 Franklin.pdf",
         "order_number": "K2023372-404",
-        "order_date": "",
+        "order_date": "25 Jul, 2023",
         "ship_date": "N/A",
         "ship_to": {
             "location": "Kontek Ecology Systems Inc.",
@@ -35,7 +35,7 @@
         "filename": "K2023387-17 GF (Skids Fittings & Pipe).pdf",
         "file_location": "P:/KONTEK/ENGINEERING/ELECTRICAL/Application Development/ERP/33. Vendor Quote and Order Parsing Kontek\\K2023387-17 GF (Skids Fittings & Pipe).pdf",
         "order_number": "K2023387-17",
-        "order_date": "07 May, 2024",
+        "order_date": "25 Apr, 2024",
         "ship_date": "07 May, 2024",
         "ship_to": {
             "location": "Kontek Ecology Systems Inc.",

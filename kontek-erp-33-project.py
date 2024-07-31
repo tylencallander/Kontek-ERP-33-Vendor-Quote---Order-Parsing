@@ -47,7 +47,7 @@ def parse_file_details(file_path):
 
                     if 'Order No' in line:
                         details['order_number'] = line.split(':')[-1].strip()
-                    if 'Date' in line:
+                    if 'Date' in line and 'Ship Date' not in line:
                         details['order_date'] = line.split(':')[-1].strip()
                     if 'Ship Date:' in line:
                         extracted_date = line.split(':')[-1].strip()
