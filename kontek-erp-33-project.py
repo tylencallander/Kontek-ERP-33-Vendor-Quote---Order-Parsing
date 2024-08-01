@@ -21,14 +21,13 @@ def parse_file_details(file_path):
 
         # Chart Data
 
-        # Chart Data
-        #'item_no': '',
-        #'quantity': '',
-        #'backorder_qty': ''
-        #'unit': '',
-        #'tax': '',
-        #'unit_price': '',
-        #'amount_price': '',
+        'item_no': '',
+        'quantity': '',
+        'backorder_qty': '',
+        'unit': '',
+        'tax': '',
+        'unit_price': '',
+        'amount_price': '',
 
         # Total Price
 
@@ -60,14 +59,6 @@ def parse_file_details(file_path):
                         details['bill_to']['address'] = ' '.join(lines[i+3:i+4] + lines[i+5:i+6])
                     
                     # Chart Data
-
-                    #'item_no': '',
-                    #'quantity': '',
-                    #'backorder_qty': '',
-                    #'unit': '',
-                    #'tax': '',
-                    #'unit_price': '',
-                    #'amount_price': '',
 
                     # Total Price
 
