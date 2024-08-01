@@ -22,6 +22,29 @@
         "amount_price": [],
         "total_price": "495.17"
     },
+    "K2020336-11REV1 GF.pdf": {
+        "filename": "K2020336-11REV1 GF.pdf",
+        "file_location": "P:/KONTEK/ENGINEERING/ELECTRICAL/Application Development/ERP/33. Vendor Quote and Order Parsing Kontek\\K2020336-11REV1 GF.pdf",
+        "order_number": "K2020336-11REV1",
+        "order_date": "20 Jan, 2021",
+        "ship_date": "08 Feb, 2021",
+        "ship_to": {
+            "location": "Kontek Ecology Systems Inc.",
+            "address": "3250 Harvester Road Unit #1 Canada Burlington, Ontario L7N 3W9"
+        },
+        "bill_to": {
+            "location": "Georg Fischer Piping Systems (Canada)",
+            "address": "#41-U1 Keyes Court Vaughan, ON L4H 0W6"
+        },
+        "item_no": [],
+        "quantity": [],
+        "backorder_qty": [],
+        "unit": [],
+        "tax": [],
+        "unit_price": [],
+        "amount_price": [],
+        "total_price": "6,510.41"
+    },
     "K2023372-404 Franklin.pdf": {
         "filename": "K2023372-404 Franklin.pdf",
         "file_location": "P:/KONTEK/ENGINEERING/ELECTRICAL/Application Development/ERP/33. Vendor Quote and Order Parsing Kontek\\K2023372-404 Franklin.pdf",
