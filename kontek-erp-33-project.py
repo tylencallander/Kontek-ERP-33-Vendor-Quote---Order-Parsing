@@ -21,10 +21,7 @@ def parse_file_details(file_path):
 
         # Table Data
 
-        'item_no': [],
-        'quantity': [],
-        'unit_price':[],
-        'amount_price': [],
+        'items': {'item_no': {'quantity': [], 'unit_price':[], 'amount_price': []}},
 
         # Footer Data
 
