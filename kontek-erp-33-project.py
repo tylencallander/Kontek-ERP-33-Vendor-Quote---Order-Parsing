@@ -8,7 +8,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 def parse_file_details(file_path):
     details = {
-
+        
         # Header Data
 
         'filename': os.path.basename(file_path),
@@ -19,20 +19,19 @@ def parse_file_details(file_path):
         'ship_to': {'location': '', 'address': ''},
         'bill_to': {'location': '', 'address': ''},
 
-        # Chart Data
+        # Table Data
 
         'item_no': [],
         'quantity': [],
-        'backorder_qty': [],
-        'unit': [],
         'unit_price':[],
         'amount_price': [],
-        'ktk_hst-num': '',
+
+        # Footer Data
+
+        'ktk_hst_num': '',
         'hst_rate': '',
-
-        # Total Price
-
         'total_price': ''
+      
     }
 
     try:
@@ -59,15 +58,21 @@ def parse_file_details(file_path):
                         details['bill_to']['location'] = ' '.join(lines[i+1:i+2]).strip()
                         details['bill_to']['address'] = ' '.join(lines[i+3:i+4] + lines[i+5:i+6])
                     
-                    # Chart Data
+                    # Table Data
 
-                    # Total Price
+                    # Footer Data
 
                     if 'Total Amount' in line and not details['total_price']:
                         price_match = re.search(r'\d{1,3}(?:,\d{3})*\.\d{2}', line)
                         if price_match:
                             details['total_price'] = price_match.group(0)
-
+                    if 'H - HST' in line:
+                        hst_rate = line.replace('H - HST', '').strip()
+                        if hst_rate:
+                            details['hst_rate'] = hst_rate
+                    if 'HST:' in line:
+                        details['ktk_hst_num'] = line.split(':')[-1].strip()
+                
                 if details['total_price']: 
                     break
 
