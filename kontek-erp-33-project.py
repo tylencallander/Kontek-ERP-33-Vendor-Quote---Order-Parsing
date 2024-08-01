@@ -21,13 +21,13 @@ def parse_file_details(file_path):
 
         # Chart Data
 
-        'item_no': '',
-        'quantity': '',
-        'backorder_qty': '',
-        'unit': '',
-        'tax': '',
-        'unit_price': '',
-        'amount_price': '',
+        'item_no': [],
+        'quantity': [],
+        'backorder_qty': [],
+        'unit': [],
+        'tax': [],
+        'unit_price':[],
+        'amount_price': [],
 
         # Total Price
 
