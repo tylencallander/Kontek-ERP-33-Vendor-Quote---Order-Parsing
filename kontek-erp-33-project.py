@@ -25,9 +25,10 @@ def parse_file_details(file_path):
         'quantity': [],
         'backorder_qty': [],
         'unit': [],
-        'tax': [],
         'unit_price':[],
         'amount_price': [],
+        'ktk_hst-num': '',
+        'hst_rate': '',
 
         # Total Price
 
