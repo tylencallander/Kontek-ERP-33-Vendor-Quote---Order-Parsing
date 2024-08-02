@@ -17,6 +17,8 @@
             {
                 "XEL-JBX664": {
                     "quantity": "10",
+                    "backorder_qty": "10",
+                    "unit": "Each",
                     "unit_price": "29.90",
                     "amount_price": "299.00"
                 }
@@ -24,6 +26,8 @@
             {
                 "XEL-BP66CSW": {
                     "quantity": "10",
+                    "backorder_qty": "10",
+                    "unit": "Each",
                     "unit_price": "13.92",
                     "amount_price": "139.20"
                 }
@@ -53,6 +57,8 @@
             {
                 "XIN-159.000.187": {
                     "quantity": "3",
+                    "backorder_qty": "3",
+                    "unit": "Each",
                     "unit_price": "42.56",
                     "amount_price": "127.68"
                 }
@@ -60,6 +66,8 @@
             {
                 "XIN-159.001.618": {
                     "quantity": "2",
+                    "backorder_qty": "2",
+                    "unit": "Each",
                     "unit_price": "93.52",
                     "amount_price": "187.04"
                 }
@@ -67,6 +75,8 @@
             {
                 "XIN-159.001.619": {
                     "quantity": "1",
+                    "backorder_qty": "1",
+                    "unit": "Each",
                     "unit_price": "103.60",
                     "amount_price": "103.60"
                 }
@@ -74,6 +84,8 @@
             {
                 "XIN-159.001.696": {
                     "quantity": "3",
+                    "backorder_qty": "3",
+                    "unit": "Each",
                     "unit_price": "369.04",
                     "amount_price": "1,107.12"
                 }
@@ -81,6 +93,8 @@
             {
                 "XIN-159.001.841": {
                     "quantity": "1",
+                    "backorder_qty": "1",
+                    "unit": "Each",
                     "unit_price": "602.39",
                     "amount_price": "602.39"
                 }
@@ -88,6 +102,8 @@
             {
                 "XIN-159.001.847": {
                     "quantity": "1",
+                    "backorder_qty": "1",
+                    "unit": "Each",
                     "unit_price": "216.81",
                     "amount_price": "216.81"
                 }
@@ -95,6 +111,8 @@
             {
                 "XIN-159.001.848": {
                     "quantity": "1",
+                    "backorder_qty": "1",
+                    "unit": "Each",
                     "unit_price": "111.76",
                     "amount_price": "111.76"
                 }
@@ -102,6 +120,8 @@
             {
                 "XVM-161.546.34": {
                     "quantity": "3",
+                    "backorder_qty": "3",
+                    "unit": "Each",
                     "unit_price": "14.75",
                     "amount_price": "44.25"
                 }
@@ -109,6 +129,8 @@
             {
                 "XVM-161.546.34": {
                     "quantity": "2",
+                    "backorder_qty": "2",
+                    "unit": "Each",
                     "unit_price": "34.28",
                     "amount_price": "68.56"
                 }
@@ -116,6 +138,8 @@
             {
                 "XVM-161.546.34": {
                     "quantity": "4",
+                    "backorder_qty": "4",
+                    "unit": "Each",
                     "unit_price": "43.22",
                     "amount_price": "172.88"
                 }
@@ -123,6 +147,8 @@
             {
                 "XVM-161.561.10": {
                     "quantity": "1",
+                    "backorder_qty": "1",
+                    "unit": "Each",
                     "unit_price": "43.33",
                     "amount_price": "43.33"
                 }
@@ -130,6 +156,8 @@
             {
                 "XVM-161.561.10": {
                     "quantity": "1",
+                    "backorder_qty": "1",
+                    "unit": "Each",
                     "unit_price": "62.37",
                     "amount_price": "62.37"
                 }
@@ -137,6 +165,8 @@
             {
                 "XIN-198.844.000": {
                     "quantity": "1",
+                    "backorder_qty": "1",
+                    "unit": "Each",
                     "unit_price": "253.12",
                     "amount_price": "253.12"
                 }
@@ -144,6 +174,8 @@
             {
                 "XIN-198.844.001": {
                     "quantity": "1",
+                    "backorder_qty": "1",
+                    "unit": "Each",
                     "unit_price": "253.12",
                     "amount_price": "253.12"
                 }
@@ -151,6 +183,8 @@
             {
                 "XIN-198.864.504": {
                     "quantity": "3",
+                    "backorder_qty": "3",
+                    "unit": "Each",
                     "unit_price": "203.84",
                     "amount_price": "611.52"
                 }
@@ -158,6 +192,8 @@
             {
                 "XVA-199.107.208": {
                     "quantity": "3",
+                    "backorder_qty": "3",
+                    "unit": "Each",
                     "unit_price": "309.42",
                     "amount_price": "928.26"
                 }
@@ -165,6 +201,8 @@
             {
                 "XVA-199.190.085": {
                     "quantity": "3",
+                    "backorder_qty": "3",
+                    "unit": "Each",
                     "unit_price": "289.20",
                     "amount_price": "867.60"
                 }
@@ -194,6 +232,8 @@
             {
                 "XEL-3RA2911-2A": {
                     "quantity": "12",
+                    "backorder_qty": "12",
+                    "unit": "Each",
                     "unit_price": "6.99",
                     "amount_price": "83.88"
                 }
@@ -201,6 +241,8 @@
             {
                 "XEL-3RT2015-2B": {
                     "quantity": "12",
+                    "backorder_qty": "12",
+                    "unit": "Each",
                     "unit_price": "37.78",
                     "amount_price": "453.36"
                 }
@@ -208,6 +250,8 @@
             {
                 "XEL-3RV2011-1A": {
                     "quantity": "1",
+                    "backorder_qty": "1",
+                    "unit": "Each",
                     "unit_price": "72.03",
                     "amount_price": "72.03"
                 }
@@ -215,6 +259,8 @@
             {
                 "XEL-3RV2011-1C": {
                     "quantity": "3",
+                    "backorder_qty": "3",
+                    "unit": "Each",
                     "unit_price": "75.28",
                     "amount_price": "225.84"
                 }
@@ -222,6 +268,8 @@
             {
                 "XEL-3RV2011-1D": {
                     "quantity": "6",
+                    "backorder_qty": "6",
+                    "unit": "Each",
                     "unit_price": "75.28",
                     "amount_price": "451.68"
                 }
@@ -229,6 +277,8 @@
             {
                 "XEL-3RV2011-1E": {
                     "quantity": "6",
+                    "backorder_qty": "6",
+                    "unit": "Each",
                     "unit_price": "75.28",
                     "amount_price": "451.68"
                 }
@@ -236,6 +286,8 @@
             {
                 "XEL-3RV2011-1F": {
                     "quantity": "2",
+                    "backorder_qty": "2",
+                    "unit": "Each",
                     "unit_price": "75.28",
                     "amount_price": "150.56"
                 }
@@ -243,6 +295,8 @@
             {
                 "XEL-3RV2011-1": {
                     "quantity": "3",
+                    "backorder_qty": "3",
+                    "unit": "Each",
                     "unit_price": "75.28",
                     "amount_price": "225.84"
                 }
@@ -250,6 +304,8 @@
             {
                 "XEL-3RV2021-4D": {
                     "quantity": "1",
+                    "backorder_qty": "1",
+                    "unit": "Each",
                     "unit_price": "111.30",
                     "amount_price": "111.30"
                 }
@@ -257,6 +313,8 @@
             {
                 "XEL-3RV2901-2F": {
                     "quantity": "22",
+                    "backorder_qty": "22",
+                    "unit": "Each",
                     "unit_price": "21.00",
                     "amount_price": "462.00"
                 }
@@ -264,6 +322,8 @@
             {
                 "XEL-3RV2917-1A": {
                     "quantity": "2",
+                    "backorder_qty": "2",
+                    "unit": "Each",
                     "unit_price": "38.06",
                     "amount_price": "76.12"
                 }
@@ -271,6 +331,8 @@
             {
                 "XEL-3RV2917-4B": {
                     "quantity": "7",
+                    "backorder_qty": "7",
+                    "unit": "Each",
                     "unit_price": "30.45",
                     "amount_price": "213.15"
                 }
@@ -278,6 +340,8 @@
             {
                 "XEL-3RV2917-5A": {
                     "quantity": "22",
+                    "backorder_qty": "22",
+                    "unit": "Each",
                     "unit_price": "7.18",
                     "amount_price": "157.96"
                 }
@@ -285,6 +349,8 @@
             {
                 "XEL-3RV2917-7A": {
                     "quantity": "12",
+                    "backorder_qty": "12",
+                    "unit": "Each",
                     "unit_price": "5.69",
                     "amount_price": "68.28"
                 }
@@ -292,6 +358,8 @@
             {
                 "XEL-3SK1111-2A": {
                     "quantity": "1",
+                    "backorder_qty": "1",
+                    "unit": "Each",
                     "unit_price": "239.88",
                     "amount_price": "239.88"
                 }
@@ -299,6 +367,8 @@
             {
                 "XEL-3SK1211-2B": {
                     "quantity": "3",
+                    "backorder_qty": "3",
+                    "unit": "Each",
                     "unit_price": "220.88",
                     "amount_price": "662.64"
                 }
@@ -306,6 +376,8 @@
             {
                 "XEL-3UG4501-1": {
                     "quantity": "4",
+                    "backorder_qty": "4",
+                    "unit": "Each",
                     "unit_price": "93.75",
                     "amount_price": "375.00"
                 }
@@ -313,6 +385,8 @@
             {
                 "XEL-60607R": {
                     "quantity": "1",
+                    "backorder_qty": "1",
+                    "unit": "Each",
                     "unit_price": "32.24",
                     "amount_price": "32.24"
                 }
@@ -320,6 +394,8 @@
             {
                 "XEL-6ES7-215-1": {
                     "quantity": "1",
+                    "backorder_qty": "1",
+                    "unit": "Each",
                     "unit_price": "850.00",
                     "amount_price": "850.00"
                 }
@@ -327,6 +403,8 @@
             {
                 "XEL-6ES7-231-4": {
                     "quantity": "1",
+                    "backorder_qty": "1",
+                    "unit": "Each",
                     "unit_price": "333.88",
                     "amount_price": "333.88"
                 }
@@ -334,6 +412,8 @@
             {
                 "XEL-6GK5008-0B": {
                     "quantity": "2",
+                    "backorder_qty": "2",
+                    "unit": "Each",
                     "unit_price": "129.98",
                     "amount_price": "259.96"
                 }
@@ -341,6 +421,8 @@
             {
                 "XEL-US6J1I": {
                     "quantity": "1",
+                    "backorder_qty": "1",
+                    "unit": "Each",
                     "unit_price": "25.40",
                     "amount_price": "25.40"
                 }
@@ -348,6 +430,8 @@
             {
                 "XEL-USCC-3I": {
                     "quantity": "1",
+                    "backorder_qty": "1",
+                    "unit": "Each",
                     "unit_price": "27.85",
                     "amount_price": "27.85"
                 }
@@ -355,6 +439,8 @@
             {
                 "XEL-6EP1336-2B": {
                     "quantity": "3",
+                    "backorder_qty": "3",
+                    "unit": "Each",
                     "unit_price": "311.00",
                     "amount_price": "933.00"
                 }
@@ -384,6 +470,8 @@
             {
                 "XPVC-801015": {
                     "quantity": "3",
+                    "backorder_qty": "3",
+                    "unit": "Each",
                     "unit_price": "12.64",
                     "amount_price": "37.92"
                 }
@@ -391,6 +479,8 @@
             {
                 "XPVC-801020": {
                     "quantity": "1",
+                    "backorder_qty": "1",
+                    "unit": "Each",
                     "unit_price": "15.81",
                     "amount_price": "15.81"
                 }
@@ -398,6 +488,8 @@
             {
                 "XPVC-806007": {
                     "quantity": "2",
+                    "backorder_qty": "2",
+                    "unit": "Each",
                     "unit_price": "1.59",
                     "amount_price": "3.18"
                 }
@@ -405,6 +497,8 @@
             {
                 "XPVC-806015": {
                     "quantity": "16",
+                    "backorder_qty": "16",
+                    "unit": "Each",
                     "unit_price": "3.67",
                     "amount_price": "58.72"
                 }
@@ -412,6 +506,8 @@
             {
                 "XPVC-806020": {
                     "quantity": "3",
+                    "backorder_qty": "3",
+                    "unit": "Each",
                     "unit_price": "4.44",
                     "amount_price": "13.32"
                 }
@@ -419,6 +515,8 @@
             {
                 "XPVC-817015": {
                     "quantity": "3",
+                    "backorder_qty": "3",
+                    "unit": "Each",
                     "unit_price": "8.08",
                     "amount_price": "24.24"
                 }
@@ -426,6 +524,8 @@
             {
                 "XPVC-837209": {
                     "quantity": "1",
+                    "backorder_qty": "1",
+                    "unit": "Each",
                     "unit_price": "4.44",
                     "amount_price": "4.44"
                 }
@@ -433,6 +533,8 @@
             {
                 "XPVC-837210": {
                     "quantity": "2",
+                    "backorder_qty": "2",
+                    "unit": "Each",
                     "unit_price": "4.44",
                     "amount_price": "8.88"
                 }
@@ -440,6 +542,8 @@
             {
                 "XPVC-837251": {
                     "quantity": "6",
+                    "backorder_qty": "6",
+                    "unit": "Each",
                     "unit_price": "6.33",
                     "amount_price": "37.98"
                 }
@@ -447,6 +551,8 @@
             {
                 "XPVC-838209": {
                     "quantity": "2",
+                    "backorder_qty": "2",
+                    "unit": "Each",
                     "unit_price": "5.29",
                     "amount_price": "10.58"
                 }
@@ -454,6 +560,8 @@
             {
                 "XPVC-854015": {
                     "quantity": "4",
+                    "backorder_qty": "4",
+                    "unit": "Each",
                     "unit_price": "8.52",
                     "amount_price": "34.08"
                 }
@@ -461,6 +569,8 @@
             {
                 "XPVC-861219": {
                     "quantity": "12",
+                    "backorder_qty": "12",
+                    "unit": "Each",
                     "unit_price": "9.96",
                     "amount_price": "119.52"
                 }
@@ -468,6 +578,8 @@
             {
                 "XPVC-89737501": {
                     "quantity": "2",
+                    "backorder_qty": "2",
+                    "unit": "Each",
                     "unit_price": "14.28",
                     "amount_price": "28.56"
                 }
@@ -475,6 +587,8 @@
             {
                 "XPVC-89837502": {
                     "quantity": "3",
+                    "backorder_qty": "3",
+                    "unit": "Each",
                     "unit_price": "34.37",
                     "amount_price": "103.11"
                 }
@@ -482,6 +596,8 @@
             {
                 "XPVC-89737502": {
                     "quantity": "3",
+                    "backorder_qty": "3",
+                    "unit": "Each",
                     "unit_price": "19.37",
                     "amount_price": "58.11"
                 }
@@ -489,6 +605,8 @@
             {
                 "XPVC-H0800075": {
                     "quantity": "20",
+                    "backorder_qty": "20",
+                    "unit": "Each",
                     "unit_price": "0.90",
                     "amount_price": "18.00"
                 }
@@ -496,6 +614,8 @@
             {
                 "XPVC-H0800150": {
                     "quantity": "40",
+                    "backorder_qty": "40",
+                    "unit": "Feet",
                     "unit_price": "2.04",
                     "amount_price": "81.60"
                 }
@@ -503,6 +623,8 @@
             {
                 "XPVC-H0800200": {
                     "quantity": "20",
+                    "backorder_qty": "20",
+                    "unit": "Feet",
                     "unit_price": "2.88",
                     "amount_price": "57.60"
                 }
@@ -510,6 +632,8 @@
             {
                 "XPVC-861109": {
                     "quantity": "2",
+                    "backorder_qty": "2",
+                    "unit": "Each",
                     "unit_price": "3.92",
                     "amount_price": "7.84"
                 }

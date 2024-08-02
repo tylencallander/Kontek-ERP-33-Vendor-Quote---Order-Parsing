@@ -8,21 +8,26 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 def parse_table_data(lines):
     items = []
-    item_pattern = re.compile(r'^X\w+')  # Regex pattern to find items starting with 'X' and followed by any word character
+    item_pattern = re.compile(r'^X\w+')  
 
     for line in lines:
         if item_pattern.match(line):
             parts = line.split()
-            if len(parts) >= 4:  # Adjust this as needed based on the expected number of columns
+            if len(parts) >= 7:  # Adjust this as needed based on the expected number of columns
                 item_no = parts[0]
                 quantity = parts[1]  # Assuming 'Ordered' quantity is the second column
+                backorder_qty = parts[2]
+                unit = parts[3]
                 unit_price = parts[-2]  # Assuming 'Unit Price' is the second last column
                 amount_price = parts[-1]  # Assuming 'Amount' is the last column
                 items.append({
                     item_no: {
                         'quantity': quantity,
+                        'backorder_qty': backorder_qty,
+                        'unit': unit,
                         'unit_price': unit_price,
                         'amount_price': amount_price
+
                     }
                 })
     return items
