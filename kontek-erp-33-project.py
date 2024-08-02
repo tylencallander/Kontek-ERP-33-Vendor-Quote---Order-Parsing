@@ -42,13 +42,14 @@ def parse_file_details(file_path):
 
         # Table Data
 
-        #'items': {'item_no': {'quantity': [], 'unit_price':[], 'amount_price': []}},
         'items': [],
 
         # Footer Data
 
         'ktk_hst_num': '',
         'hst_rate': '',
+        'subtotal': '',
+        'hst': '',
         'total_price': ''
       
     }
@@ -93,6 +94,11 @@ def parse_file_details(file_path):
                             details['hst_rate'] = hst_rate
                     if 'HST:' in line:
                         details['ktk_hst_num'] = line.split(':')[-1].strip()
+                    if 'HST' in line and 'HST:' not in line:
+                        details['hst'] = line.split(':')[-1].strip().replace('HST ', '')
+                    if 'Subtotal:' in line:
+                        details['subtotal'] = line.split(':')[-1].strip()
+                    
                 
                 if details['total_price']: 
                     break

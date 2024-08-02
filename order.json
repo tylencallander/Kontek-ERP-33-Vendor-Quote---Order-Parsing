@@ -31,6 +31,8 @@
         ],
         "ktk_hst_num": "#102873304RT0001",
         "hst_rate": "13%",
+        "subtotal": "438.20",
+        "hst": "56.97",
         "total_price": "495.17"
     },
     "K2020336-11REV1 GF.pdf": {
@@ -170,6 +172,8 @@
         ],
         "ktk_hst_num": "#102873304RT0001",
         "hst_rate": "13%",
+        "subtotal": "5,761.41",
+        "hst": "749.00",
         "total_price": "6,510.41"
     },
     "K2023372-404 Franklin.pdf": {
@@ -218,6 +222,8 @@
         ],
         "ktk_hst_num": "#102873304RT0001",
         "hst_rate": "13%",
+        "subtotal": "6,943.53",
+        "hst": "902.64",
         "total_price": "7,846.17"
     },
     "K2023387-17 GF (Skids Fittings & Pipe).pdf": {
@@ -371,6 +377,8 @@
         ],
         "ktk_hst_num": "#102873304RT0001",
         "hst_rate": "13%",
+        "subtotal": "723.49",
+        "hst": "94.05",
         "total_price": "817.54"
     }
 }
