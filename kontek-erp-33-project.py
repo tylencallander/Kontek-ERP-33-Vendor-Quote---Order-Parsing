@@ -6,6 +6,27 @@ import re
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
+def parse_table_data(lines):
+    items = []
+    item_pattern = re.compile(r'^X\w+')  # Regex pattern to find items starting with 'X' and followed by any word character
+
+    for line in lines:
+        if item_pattern.match(line):
+            parts = line.split()
+            if len(parts) >= 4:  # Adjust this as needed based on the expected number of columns
+                item_no = parts[0]
+                quantity = parts[1]  # Assuming 'Ordered' quantity is the second column
+                unit_price = parts[-2]  # Assuming 'Unit Price' is the second last column
+                amount_price = parts[-1]  # Assuming 'Amount' is the last column
+                items.append({
+                    item_no: {
+                        'quantity': quantity,
+                        'unit_price': unit_price,
+                        'amount_price': amount_price
+                    }
+                })
+    return items
+
 def parse_file_details(file_path):
     details = {
         
@@ -21,7 +42,8 @@ def parse_file_details(file_path):
 
         # Table Data
 
-        'items': {'item_no': {'quantity': [], 'unit_price':[], 'amount_price': []}},
+        #'items': {'item_no': {'quantity': [], 'unit_price':[], 'amount_price': []}},
+        'items': [],
 
         # Footer Data
 
@@ -36,7 +58,9 @@ def parse_file_details(file_path):
             for page in pdf.pages:
                 text = page.extract_text()
                 lines = text.split('\n')
-                
+                details['items'] = parse_table_data(lines)  # Parse table data and update items
+
+
                 for i, line in enumerate(lines):
 
                     # Header Data

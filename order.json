@@ -13,13 +13,22 @@
             "location": "Graybar",
             "address": "PO Box 1000, 130 Hayward Ave. Kitchener, Ontario N2G 4E8"
         },
-        "items": {
-            "item_no": {
-                "quantity": [],
-                "unit_price": [],
-                "amount_price": []
+        "items": [
+            {
+                "XEL-JBX664": {
+                    "quantity": "10",
+                    "unit_price": "29.90",
+                    "amount_price": "299.00"
+                }
+            },
+            {
+                "XEL-BP66CSW": {
+                    "quantity": "10",
+                    "unit_price": "13.92",
+                    "amount_price": "139.20"
+                }
             }
-        },
+        ],
         "ktk_hst_num": "#102873304RT0001",
         "hst_rate": "13%",
         "total_price": "495.17"
@@ -38,13 +47,127 @@
             "location": "Georg Fischer Piping Systems (Canada)",
             "address": "#41-U1 Keyes Court Vaughan, ON L4H 0W6"
         },
-        "items": {
-            "item_no": {
-                "quantity": [],
-                "unit_price": [],
-                "amount_price": []
+        "items": [
+            {
+                "XIN-159.000.187": {
+                    "quantity": "3",
+                    "unit_price": "42.56",
+                    "amount_price": "127.68"
+                }
+            },
+            {
+                "XIN-159.001.618": {
+                    "quantity": "2",
+                    "unit_price": "93.52",
+                    "amount_price": "187.04"
+                }
+            },
+            {
+                "XIN-159.001.619": {
+                    "quantity": "1",
+                    "unit_price": "103.60",
+                    "amount_price": "103.60"
+                }
+            },
+            {
+                "XIN-159.001.696": {
+                    "quantity": "3",
+                    "unit_price": "369.04",
+                    "amount_price": "1,107.12"
+                }
+            },
+            {
+                "XIN-159.001.841": {
+                    "quantity": "1",
+                    "unit_price": "602.39",
+                    "amount_price": "602.39"
+                }
+            },
+            {
+                "XIN-159.001.847": {
+                    "quantity": "1",
+                    "unit_price": "216.81",
+                    "amount_price": "216.81"
+                }
+            },
+            {
+                "XIN-159.001.848": {
+                    "quantity": "1",
+                    "unit_price": "111.76",
+                    "amount_price": "111.76"
+                }
+            },
+            {
+                "XVM-161.546.34": {
+                    "quantity": "3",
+                    "unit_price": "14.75",
+                    "amount_price": "44.25"
+                }
+            },
+            {
+                "XVM-161.546.34": {
+                    "quantity": "2",
+                    "unit_price": "34.28",
+                    "amount_price": "68.56"
+                }
+            },
+            {
+                "XVM-161.546.34": {
+                    "quantity": "4",
+                    "unit_price": "43.22",
+                    "amount_price": "172.88"
+                }
+            },
+            {
+                "XVM-161.561.10": {
+                    "quantity": "1",
+                    "unit_price": "43.33",
+                    "amount_price": "43.33"
+                }
+            },
+            {
+                "XVM-161.561.10": {
+                    "quantity": "1",
+                    "unit_price": "62.37",
+                    "amount_price": "62.37"
+                }
+            },
+            {
+                "XIN-198.844.000": {
+                    "quantity": "1",
+                    "unit_price": "253.12",
+                    "amount_price": "253.12"
+                }
+            },
+            {
+                "XIN-198.844.001": {
+                    "quantity": "1",
+                    "unit_price": "253.12",
+                    "amount_price": "253.12"
+                }
+            },
+            {
+                "XIN-198.864.504": {
+                    "quantity": "3",
+                    "unit_price": "203.84",
+                    "amount_price": "611.52"
+                }
+            },
+            {
+                "XVA-199.107.208": {
+                    "quantity": "3",
+                    "unit_price": "309.42",
+                    "amount_price": "928.26"
+                }
+            },
+            {
+                "XVA-199.190.085": {
+                    "quantity": "3",
+                    "unit_price": "289.20",
+                    "amount_price": "867.60"
+                }
             }
-        },
+        ],
         "ktk_hst_num": "#102873304RT0001",
         "hst_rate": "13%",
         "total_price": "6,510.41"
@@ -63,13 +186,36 @@
             "location": "Franklin Empire Inc.",
             "address": "8421 Darnley Road Mount-Royal, Quebec H4T 2B2"
         },
-        "items": {
-            "item_no": {
-                "quantity": [],
-                "unit_price": [],
-                "amount_price": []
+        "items": [
+            {
+                "XEL-6GK5008-0B": {
+                    "quantity": "2",
+                    "unit_price": "129.98",
+                    "amount_price": "259.96"
+                }
+            },
+            {
+                "XEL-US6J1I": {
+                    "quantity": "1",
+                    "unit_price": "25.40",
+                    "amount_price": "25.40"
+                }
+            },
+            {
+                "XEL-USCC-3I": {
+                    "quantity": "1",
+                    "unit_price": "27.85",
+                    "amount_price": "27.85"
+                }
+            },
+            {
+                "XEL-6EP1336-2B": {
+                    "quantity": "3",
+                    "unit_price": "311.00",
+                    "amount_price": "933.00"
+                }
             }
-        },
+        ],
         "ktk_hst_num": "#102873304RT0001",
         "hst_rate": "13%",
         "total_price": "7,846.17"
@@ -88,13 +234,141 @@
             "location": "Georg Fischer Piping Systems (Canada)",
             "address": "#41-U1 Keyes Court Vaughan, ON L4H 0W6"
         },
-        "items": {
-            "item_no": {
-                "quantity": [],
-                "unit_price": [],
-                "amount_price": []
+        "items": [
+            {
+                "XPVC-801015": {
+                    "quantity": "3",
+                    "unit_price": "12.64",
+                    "amount_price": "37.92"
+                }
+            },
+            {
+                "XPVC-801020": {
+                    "quantity": "1",
+                    "unit_price": "15.81",
+                    "amount_price": "15.81"
+                }
+            },
+            {
+                "XPVC-806007": {
+                    "quantity": "2",
+                    "unit_price": "1.59",
+                    "amount_price": "3.18"
+                }
+            },
+            {
+                "XPVC-806015": {
+                    "quantity": "16",
+                    "unit_price": "3.67",
+                    "amount_price": "58.72"
+                }
+            },
+            {
+                "XPVC-806020": {
+                    "quantity": "3",
+                    "unit_price": "4.44",
+                    "amount_price": "13.32"
+                }
+            },
+            {
+                "XPVC-817015": {
+                    "quantity": "3",
+                    "unit_price": "8.08",
+                    "amount_price": "24.24"
+                }
+            },
+            {
+                "XPVC-837209": {
+                    "quantity": "1",
+                    "unit_price": "4.44",
+                    "amount_price": "4.44"
+                }
+            },
+            {
+                "XPVC-837210": {
+                    "quantity": "2",
+                    "unit_price": "4.44",
+                    "amount_price": "8.88"
+                }
+            },
+            {
+                "XPVC-837251": {
+                    "quantity": "6",
+                    "unit_price": "6.33",
+                    "amount_price": "37.98"
+                }
+            },
+            {
+                "XPVC-838209": {
+                    "quantity": "2",
+                    "unit_price": "5.29",
+                    "amount_price": "10.58"
+                }
+            },
+            {
+                "XPVC-854015": {
+                    "quantity": "4",
+                    "unit_price": "8.52",
+                    "amount_price": "34.08"
+                }
+            },
+            {
+                "XPVC-861219": {
+                    "quantity": "12",
+                    "unit_price": "9.96",
+                    "amount_price": "119.52"
+                }
+            },
+            {
+                "XPVC-89737501": {
+                    "quantity": "2",
+                    "unit_price": "14.28",
+                    "amount_price": "28.56"
+                }
+            },
+            {
+                "XPVC-89837502": {
+                    "quantity": "3",
+                    "unit_price": "34.37",
+                    "amount_price": "103.11"
+                }
+            },
+            {
+                "XPVC-89737502": {
+                    "quantity": "3",
+                    "unit_price": "19.37",
+                    "amount_price": "58.11"
+                }
+            },
+            {
+                "XPVC-H0800075": {
+                    "quantity": "20",
+                    "unit_price": "0.90",
+                    "amount_price": "18.00"
+                }
+            },
+            {
+                "XPVC-H0800150": {
+                    "quantity": "40",
+                    "unit_price": "2.04",
+                    "amount_price": "81.60"
+                }
+            },
+            {
+                "XPVC-H0800200": {
+                    "quantity": "20",
+                    "unit_price": "2.88",
+                    "amount_price": "57.60"
+                }
+            },
+            {
+                "XPVC-861109": {
+                    "quantity": "2",
+                    "unit_price": "3.92",
+                    "amount_price": "7.84"
+                }
             }
-        },
+        ],
         "ktk_hst_num": "#102873304RT0001",
         "hst_rate": "13%",
         "total_price": "817.54"
