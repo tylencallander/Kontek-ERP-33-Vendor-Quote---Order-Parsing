@@ -192,6 +192,146 @@
         },
         "items": [
             {
+                "XEL-3RA2911-2A": {
+                    "quantity": "12",
+                    "unit_price": "6.99",
+                    "amount_price": "83.88"
+                }
+            },
+            {
+                "XEL-3RT2015-2B": {
+                    "quantity": "12",
+                    "unit_price": "37.78",
+                    "amount_price": "453.36"
+                }
+            },
+            {
+                "XEL-3RV2011-1A": {
+                    "quantity": "1",
+                    "unit_price": "72.03",
+                    "amount_price": "72.03"
+                }
+            },
+            {
+                "XEL-3RV2011-1C": {
+                    "quantity": "3",
+                    "unit_price": "75.28",
+                    "amount_price": "225.84"
+                }
+            },
+            {
+                "XEL-3RV2011-1D": {
+                    "quantity": "6",
+                    "unit_price": "75.28",
+                    "amount_price": "451.68"
+                }
+            },
+            {
+                "XEL-3RV2011-1E": {
+                    "quantity": "6",
+                    "unit_price": "75.28",
+                    "amount_price": "451.68"
+                }
+            },
+            {
+                "XEL-3RV2011-1F": {
+                    "quantity": "2",
+                    "unit_price": "75.28",
+                    "amount_price": "150.56"
+                }
+            },
+            {
+                "XEL-3RV2011-1": {
+                    "quantity": "3",
+                    "unit_price": "75.28",
+                    "amount_price": "225.84"
+                }
+            },
+            {
+                "XEL-3RV2021-4D": {
+                    "quantity": "1",
+                    "unit_price": "111.30",
+                    "amount_price": "111.30"
+                }
+            },
+            {
+                "XEL-3RV2901-2F": {
+                    "quantity": "22",
+                    "unit_price": "21.00",
+                    "amount_price": "462.00"
+                }
+            },
+            {
+                "XEL-3RV2917-1A": {
+                    "quantity": "2",
+                    "unit_price": "38.06",
+                    "amount_price": "76.12"
+                }
+            },
+            {
+                "XEL-3RV2917-4B": {
+                    "quantity": "7",
+                    "unit_price": "30.45",
+                    "amount_price": "213.15"
+                }
+            },
+            {
+                "XEL-3RV2917-5A": {
+                    "quantity": "22",
+                    "unit_price": "7.18",
+                    "amount_price": "157.96"
+                }
+            },
+            {
+                "XEL-3RV2917-7A": {
+                    "quantity": "12",
+                    "unit_price": "5.69",
+                    "amount_price": "68.28"
+                }
+            },
+            {
+                "XEL-3SK1111-2A": {
+                    "quantity": "1",
+                    "unit_price": "239.88",
+                    "amount_price": "239.88"
+                }
+            },
+            {
+                "XEL-3SK1211-2B": {
+                    "quantity": "3",
+                    "unit_price": "220.88",
+                    "amount_price": "662.64"
+                }
+            },
+            {
+                "XEL-3UG4501-1": {
+                    "quantity": "4",
+                    "unit_price": "93.75",
+                    "amount_price": "375.00"
+                }
+            },
+            {
+                "XEL-60607R": {
+                    "quantity": "1",
+                    "unit_price": "32.24",
+                    "amount_price": "32.24"
+                }
+            },
+            {
+                "XEL-6ES7-215-1": {
+                    "quantity": "1",
+                    "unit_price": "850.00",
+                    "amount_price": "850.00"
+                }
+            },
+            {
+                "XEL-6ES7-231-4": {
+                    "quantity": "1",
+                    "unit_price": "333.88",
+                    "amount_price": "333.88"
+                }
+            },
+            {
                 "XEL-6GK5008-0B": {
                     "quantity": "2",
                     "unit_price": "129.98",

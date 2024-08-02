@@ -59,7 +59,8 @@ def parse_file_details(file_path):
             for page in pdf.pages:
                 text = page.extract_text()
                 lines = text.split('\n')
-                details['items'] = parse_table_data(lines)  # Parse table data and update items
+                page_items = parse_table_data(lines) 
+                details['items'].extend(page_items)
 
 
                 for i, line in enumerate(lines):
@@ -80,8 +81,6 @@ def parse_file_details(file_path):
                         details['bill_to']['location'] = ' '.join(lines[i+1:i+2]).strip()
                         details['bill_to']['address'] = ' '.join(lines[i+3:i+4] + lines[i+5:i+6])
                     
-                    # Table Data
-
                     # Footer Data
 
                     if 'Total Amount' in line and not details['total_price']:
