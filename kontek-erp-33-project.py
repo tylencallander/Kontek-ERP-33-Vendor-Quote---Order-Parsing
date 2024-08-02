@@ -6,6 +6,8 @@ import re
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
+# Table Data
+
 def parse_table_data(lines):
     items = []
     item_pattern = re.compile(r'^X\w+')  
@@ -13,13 +15,13 @@ def parse_table_data(lines):
     for line in lines:
         if item_pattern.match(line):
             parts = line.split()
-            if len(parts) >= 7:  # Adjust this as needed based on the expected number of columns
+            if len(parts) >= 7:  
                 item_no = parts[0]
-                quantity = parts[1]  # Assuming 'Ordered' quantity is the second column
+                quantity = parts[1]  
                 backorder_qty = parts[2]
                 unit = parts[3]
-                unit_price = parts[-2]  # Assuming 'Unit Price' is the second last column
-                amount_price = parts[-1]  # Assuming 'Amount' is the last column
+                unit_price = parts[-2]  
+                amount_price = parts[-1]  
                 items.append({
                     item_no: {
                         'quantity': quantity,
@@ -45,7 +47,7 @@ def parse_file_details(file_path):
         'ship_to': {'location': '', 'address': ''},
         'bill_to': {'location': '', 'address': ''},
 
-        # Table Data
+        # Table Key
 
         'items': [],
 
