@@ -4,8 +4,6 @@ import pdfplumber
 import logging
 import re
 
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-
 # Table Data
 
 def parse_table_data(lines):
